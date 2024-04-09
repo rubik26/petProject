@@ -8,7 +8,6 @@ CREATE TABLE Products
     author_name VARCHAR(30)
 );
 INSERT INTO products
-VALUES (2, 'գավաթ', 'շատ լավ բաժակ ձեր սիրած ըմպելիքը խմելու համար))', 700, 'Աշտարակ', 'Գեվորգ');
 
 CREATE TABLE Images
 (
