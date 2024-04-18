@@ -35,7 +35,7 @@ public class ProductController {
     public String createProduct(@RequestParam("file1")MultipartFile file1,
                                 @RequestParam("file2")MultipartFile file2,
                                 @RequestParam("file3")MultipartFile file3,
-                                @RequestBody Product product) throws IOException {
+                                @ModelAttribute Product product) throws IOException {
         productService.saveProduct(product, file1, file2, file3);
         return "redirect:/";
     }

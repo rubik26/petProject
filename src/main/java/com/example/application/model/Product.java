@@ -29,7 +29,7 @@ public class Product {
     private String city;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY,
     mappedBy = "product")
-    private List<Image> imageList;
+    private List<Image> imageList = new ArrayList<>();
     private int previewImageId;
     private LocalDateTime dataCreated;
     @PrePersist

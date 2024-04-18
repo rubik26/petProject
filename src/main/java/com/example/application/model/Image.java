@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.web.multipart.MultipartFile;
 
 @Entity
-@Table(name = "Images")
+@Table(name = "images")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -26,8 +26,8 @@ public class Image {
     private String contentType;
     @Column(name = "is_preview_image")
     private boolean isPreviewImage;
-    @Lob
-    @Column(name = "bytes", columnDefinition = "longblob")
+
+    @Column(name = "bytes")
     private byte[] bytes;
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     private Product product;
