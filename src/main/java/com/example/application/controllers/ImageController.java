@@ -1,6 +1,6 @@
-package com.example.application.Controllers;
+package com.example.application.controllers;
 
-import com.example.application.Repository.ImageRepository;
+import com.example.application.repository.ImageRepository;
 import com.example.application.model.Image;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.MediaType;

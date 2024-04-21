@@ -1,8 +1,7 @@
-package com.example.application.Controllers;
+package com.example.application.controllers;
 
 import com.example.application.model.Product;
 import com.example.application.services.impl.ProductServiceImpl;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

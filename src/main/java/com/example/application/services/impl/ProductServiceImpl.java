@@ -1,6 +1,6 @@
 package com.example.application.services.impl;
 
-import com.example.application.Repository.ProductRepository;
+import com.example.application.repository.ProductRepository;
 import com.example.application.model.Image;
 import com.example.application.model.Product;
 import com.example.application.services.ProductService;
