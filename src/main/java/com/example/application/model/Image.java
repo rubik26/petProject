@@ -11,7 +11,6 @@ import org.springframework.web.multipart.MultipartFile;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class Image {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

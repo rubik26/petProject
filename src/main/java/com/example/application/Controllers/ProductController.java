@@ -19,7 +19,7 @@ public class ProductController {
     }
 
     @GetMapping("/")
-    public String products(@RequestParam(name = "name", required = false) String name,Model model){
+    public String products(@RequestParam(name = "name", required = false) String name, Model model){
         model.addAttribute("products", productService.listProducts(name));
         return "products";
     }
